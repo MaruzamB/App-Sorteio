@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         val textoResultado = findViewById<TextView>(R.id.text_resultado)
         val numero = Random().nextInt(61)
         textoResultado.setText("Número Gerado $numero")
-        val number = 0
+
 
     }
 
